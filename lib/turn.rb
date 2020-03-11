@@ -7,8 +7,8 @@ puts "-----------"
 puts " #{board[6]} | #{board[7]} | #{board[8]} "
 
 end
-def input_to_index
-    user_input = gets.to_i
+def input_to_index(value)
+    user_input = value.to_i
 end
 def turn(board)
     puts "Please enter 1-9"
