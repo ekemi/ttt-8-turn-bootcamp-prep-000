@@ -8,7 +8,7 @@ puts " #{board[6]} | #{board[7]} | #{board[8]} "
 
 end
 def input_to_index(value)
-    user_input = value.to_i
+    user_input = value.to_i - 1
 end
 def turn(board)
     puts "Please enter 1-9"
